@@ -1,0 +1,36 @@
+.card {
+  display: flex;
+  border: 2px solid rgba(0, 0, 0, 0.26);  
+  border-radius: 10px; 
+  width: 1000px;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 0;
+  margin: 5px;
+}
+
+.image img {
+  width: 200px;
+}
+
+.text h1,
+p {
+  padding: 2px 0;
+}
+
+.image {
+  position: relative;
+}
+
+.capsule {
+  position: absolute;
+  bottom: 4px;
+  z-index: 10;
+  right: 4px;
+  background-color: black;
+  color: white;
+  padding: 2px 7px;
+  font-size: 13px;
+  margin: 7px;
+  border-radius: 3px;
+}
