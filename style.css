@@ -1,6 +1,6 @@
 .card {
   display: flex;
-  border: 2px solid rgba(0, 0, 0, 0.26);  
+  border: 1.2px solid rgba(0, 0, 0, 0.26);  
   border-radius: 10px; 
   width: 1000px;
   justify-content: center;
@@ -34,3 +34,4 @@ p {
   margin: 7px;
   border-radius: 3px;
 }
+
